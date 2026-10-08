@@ -1,30 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="FTL Logistics Expense Tracker: Excel 365 structured tables and dashboard">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="FTL Logistics Expense Tracker: Excel 365 freight register and dashboard">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B1150"/>
-      <stop offset="1" stop-color="#1F2A7A"/>
+      <stop offset="0" stop-color="#FBF5E8"/>
+      <stop offset="1" stop-color="#F3E5C8"/>
     </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#E2CFA8"/>
+    </pattern>
+    <clipPath id="card"><rect x="1" y="1" width="1278" height="298" rx="18"/></clipPath>
   </defs>
-  <rect width="1280" height="300" rx="18" fill="url(#bg)"/>
-  <!-- decorative bars: total sale per calendar year 2024 / 2025 / 2026 YTD (sample data, to scale);
-       solid = Auburn billing, light cap = market loads; line = Auburn margin % trend -->
-  <g fill="#7FA7FF" opacity="0.25">
-    <rect x="990" y="165" width="56" height="95" rx="4"/>
-    <rect x="1066" y="73" width="56" height="187" rx="4"/>
-    <rect x="1142" y="109" width="56" height="151" rx="4"/>
+
+  <!-- card -->
+  <rect x="1" y="1" width="1278" height="298" rx="18" fill="url(#bg)" stroke="#E6D3AE" stroke-width="2"/>
+  <g clip-path="url(#card)">
+    <rect x="840" y="0" width="440" height="300" fill="url(#grid)" opacity="0.7"/>
+    <rect x="0" y="0" width="10" height="300" fill="#D9A441"/>
   </g>
-  <g fill="#7FA7FF" opacity="0.5">
-    <rect x="1066" y="60" width="56" height="13" rx="3"/>
-    <rect x="1142" y="83" width="56" height="26" rx="3"/>
+
+  <!-- route: origin pin -> dotted path -> destination pin -->
+  <path d="M902 92 C 960 40, 1040 40, 1090 78 S 1180 110, 1206 70" fill="none" stroke="#B9895A" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+  <g>
+    <path d="M902 96 c-10 -12 -14 -18 -14 -25 a14 14 0 0 1 28 0 c0 7 -4 13 -14 25z" fill="#C98F5E"/>
+    <circle cx="902" cy="71" r="5" fill="#FBF5E8"/>
   </g>
-  <polyline points="1018,161 1094,137 1170,99" fill="none" stroke="#A9C4FF" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
-  <g fill="#A9C4FF">
-    <circle cx="1018" cy="161" r="4"/><circle cx="1094" cy="137" r="4"/><circle cx="1170" cy="99" r="5"/>
+  <g>
+    <path d="M1206 74 c-10 -12 -14 -18 -14 -25 a14 14 0 0 1 28 0 c0 7 -4 13 -14 25z" fill="#D9A441"/>
+    <circle cx="1206" cy="49" r="5" fill="#FBF5E8"/>
   </g>
+
+  <!-- road -->
+  <rect x="860" y="236" width="380" height="6" rx="3" fill="#D8C29C"/>
+  <line x1="872" y1="256" x2="1232" y2="256" stroke="#E2CFA8" stroke-width="4" stroke-dasharray="26 18" stroke-linecap="round"/>
+
+  <!-- truck (full truck load) -->
+  <g>
+    <!-- trailer -->
+    <rect x="902" y="132" width="196" height="92" rx="8" fill="#F2D98B" stroke="#C9A55A" stroke-width="2"/>
+    <g stroke="#E3C26E" stroke-width="2">
+      <line x1="951" y1="140" x2="951" y2="216"/>
+      <line x1="1000" y1="140" x2="1000" y2="216"/>
+      <line x1="1049" y1="140" x2="1049" y2="216"/>
+    </g>
+    <text x="1000" y="186" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#8A6236" letter-spacing="4">FTL</text>
+    <!-- cab -->
+    <path d="M1104 224 V 160 a8 8 0 0 1 8 -8 h44 l26 34 v30 a8 8 0 0 1 -8 8 z" fill="#C98F5E"/>
+    <path d="M1118 166 h34 l17 22 h-51 z" fill="#FBF5E8"/>
+    <rect x="1176" y="206" width="10" height="6" rx="2" fill="#F2D98B"/>
+    <!-- chassis -->
+    <rect x="898" y="220" width="290" height="8" rx="4" fill="#8A6236"/>
+    <!-- wheels -->
+    <g fill="#5C4033">
+      <circle cx="936" cy="232" r="15"/><circle cx="972" cy="232" r="15"/>
+      <circle cx="1068" cy="232" r="15"/><circle cx="1154" cy="232" r="15"/>
+    </g>
+    <g fill="#F3E5C8">
+      <circle cx="936" cy="232" r="5"/><circle cx="972" cy="232" r="5"/>
+      <circle cx="1068" cy="232" r="5"/><circle cx="1154" cy="232" r="5"/>
+    </g>
+  </g>
+
+  <!-- text -->
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
-    <text x="64" y="92" fill="#A9C4FF" font-size="20" font-weight="600" letter-spacing="3">EXCEL 365  ·  STRUCTURED TABLES  ·  DASHBOARD</text>
-    <text x="64" y="150" fill="#FFFFFF" font-size="48" font-weight="700">FTL Logistics Expense Tracker</text>
-    <text x="64" y="194" fill="#D5E0FF" font-size="21">Hand-kept freight registers rebuilt as reconciled tables and a live dashboard</text>
-    <text x="64" y="248" fill="#A9C4FF" font-size="18">May 2024 – Sep 2026  ·  1,114 Auburn loads  ·  171 market loads  ·  10 trucks  ·  11,400+ formulas</text>
+    <text x="64" y="90" fill="#B07D3A" font-size="19" font-weight="600" letter-spacing="3">EXCEL 365  ·  FREIGHT REGISTER  ·  DASHBOARD</text>
+    <text x="64" y="148" fill="#4A3426" font-size="48" font-weight="700">FTL Logistics Expense Tracker</text>
+    <text x="64" y="190" fill="#6E5440" font-size="21">Hand-kept freight registers rebuilt as reconciled tables and a live dashboard</text>
+    <rect x="64" y="218" width="768" height="40" rx="20" fill="#F2E3BF"/>
+    <text x="84" y="244" fill="#8A6236" font-size="17">May 2024 – Sep 2026  ·  1,114 Auburn loads  ·  171 market loads  ·  10 trucks  ·  11,400+ formulas</text>
   </g>
 </svg>
