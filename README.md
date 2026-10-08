@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-<img alt="Excel" src="https://img.shields.io/badge/Excel-365-217346?logo=microsoftexcel&logoColor=white">
-<img alt="Structured tables" src="https://img.shields.io/badge/Structured%20tables-3-1F2A7A">
-<img alt="Formulas" src="https://img.shields.io/badge/Formulas-11.4k-1F2A7A">
-<img alt="Dashboard" src="https://img.shields.io/badge/Dashboard-year%20filter-1F2A7A">
-<img alt="Data" src="https://img.shields.io/badge/Data-anonymised-6E7681">
+<img alt="Excel" src="https://img.shields.io/badge/Excel-365-D9A441?labelColor=5C4033">
+<img alt="Structured tables" src="https://img.shields.io/badge/Structured%20tables-3-E8C878?labelColor=5C4033">
+<img alt="Formulas" src="https://img.shields.io/badge/Formulas-11.4k-E8C878?labelColor=5C4033">
+<img alt="Dashboard" src="https://img.shields.io/badge/Dashboard-year%20filter-E8C878?labelColor=5C4033">
+<img alt="Data" src="https://img.shields.io/badge/Data-anonymised-C9B79C?labelColor=5C4033">
 </p>
 
 <p align="center">
