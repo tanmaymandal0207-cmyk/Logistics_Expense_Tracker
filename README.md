@@ -1,4 +1,26 @@
-# Logistics Expense Tracker: Full Truck Load (FTL)
+<p align="center">
+<img src="images/banner.svg" alt="FTL Logistics Expense Tracker" width="100%">
+</p>
+
+<p align="center">
+<img alt="Excel" src="https://img.shields.io/badge/Excel-365-217346?logo=microsoftexcel&logoColor=white">
+<img alt="Structured tables" src="https://img.shields.io/badge/Structured%20tables-3-1F2A7A">
+<img alt="Formulas" src="https://img.shields.io/badge/Formulas-11.4k-1F2A7A">
+<img alt="Dashboard" src="https://img.shields.io/badge/Dashboard-year%20filter-1F2A7A">
+<img alt="Data" src="https://img.shields.io/badge/Data-anonymised-6E7681">
+</p>
+
+<p align="center">
+<a href="#at-a-glance">Overview</a> ·
+<a href="#workbook-map">Workbook map</a> ·
+<a href="#what-was-restructured">Restructuring</a> ·
+<a href="#dashboard-mechanics">Dashboard</a> ·
+<a href="#validation">Validation</a> ·
+<a href="#how-to-use">How to use</a> ·
+<a href="#repository-structure">Structure</a>
+</p>
+
+---
 
 An Excel 365 workbook I restructured for a logistics operation that does two things: it moves a garment manufacturer's freight (the **Auburn** loads) using its own trucks and hired third-party lorries, and it sells its own fleet's spare capacity to outside customers (the **Market** loads).
 
@@ -146,6 +168,7 @@ The published workbook was produced from the live file with an XML-level script,
 │   ├── data-dictionary.md       # every column of AUBURN, MARKET, KMRUN, MONTHLY SALE
 │   └── formula-reference.md     # KPI, dashboard and helper formulas
 └── images/
+    ├── banner.svg
     ├── dashboard.png
     └── auburn-load-clean.png
 ```
