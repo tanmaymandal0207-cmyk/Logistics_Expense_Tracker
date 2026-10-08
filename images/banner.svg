@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="FTL Logistics Expense Tracker: Excel 365 structured tables and dashboard">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1150"/>
+      <stop offset="1" stop-color="#1F2A7A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="300" rx="18" fill="url(#bg)"/>
+  <!-- decorative bars: total sale per calendar year 2024 / 2025 / 2026 YTD (sample data, to scale);
+       solid = Auburn billing, light cap = market loads; line = Auburn margin % trend -->
+  <g fill="#7FA7FF" opacity="0.25">
+    <rect x="990" y="165" width="56" height="95" rx="4"/>
+    <rect x="1066" y="73" width="56" height="187" rx="4"/>
+    <rect x="1142" y="109" width="56" height="151" rx="4"/>
+  </g>
+  <g fill="#7FA7FF" opacity="0.5">
+    <rect x="1066" y="60" width="56" height="13" rx="3"/>
+    <rect x="1142" y="83" width="56" height="26" rx="3"/>
+  </g>
+  <polyline points="1018,161 1094,137 1170,99" fill="none" stroke="#A9C4FF" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <g fill="#A9C4FF">
+    <circle cx="1018" cy="161" r="4"/><circle cx="1094" cy="137" r="4"/><circle cx="1170" cy="99" r="5"/>
+  </g>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="64" y="92" fill="#A9C4FF" font-size="20" font-weight="600" letter-spacing="3">EXCEL 365  ·  STRUCTURED TABLES  ·  DASHBOARD</text>
+    <text x="64" y="150" fill="#FFFFFF" font-size="48" font-weight="700">FTL Logistics Expense Tracker</text>
+    <text x="64" y="194" fill="#D5E0FF" font-size="21">Hand-kept freight registers rebuilt as reconciled tables and a live dashboard</text>
+    <text x="64" y="248" fill="#A9C4FF" font-size="18">May 2024 – Sep 2026  ·  1,114 Auburn loads  ·  171 market loads  ·  10 trucks  ·  11,400+ formulas</text>
+  </g>
+</svg>
