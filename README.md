@@ -28,7 +28,7 @@ The original workbook was a set of hand-kept sheets with mixed data types, free-
 
 > **The data in this repository is anonymised.** Party names, phone numbers, vehicle registrations, drivers, reference numbers and free-text remarks have been masked, and every amount has been rescaled. The structure, formulas, data-quality problems and row counts are real. The ₹ values are not. See [Anonymisation](#anonymisation).
 
-![Fleet matrix: vehicle status board for the 10 owned trucks](images/dashboard.png)
+![Fleet matrix: vehicle status board for the 10 owned trucks](images/fleet-dashboard.png)
 
 <sub>Fleet matrix from the fleet dashboard: service position, document compliance and mileage trend per truck. Vehicles and drivers anonymised.</sub>
 
@@ -171,7 +171,7 @@ The published workbook was produced from the live file with an XML-level script,
 │   └── formula-reference.md     # KPI, dashboard and helper formulas
 └── images/
     ├── banner.svg
-    ├── dashboard.png
+    ├── fleet-dashboard.png
     └── auburn-load-clean.png
 ```
 
